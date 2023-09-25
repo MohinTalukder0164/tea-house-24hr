@@ -9,6 +9,8 @@
     <!-- Tailwind & Daisyui CDN link hare -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome kit hare -->
+    <script src="https://kit.fontawesome.com/1a249115f2.js" crossorigin="anonymous"></script>
     <!-- Custom color style -->
     <script>
         tailwind.config = {
@@ -29,8 +31,29 @@
 </head>
 
 <body>
-    <header>
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
 
+                <div>
+                    <h1 class="text-6xl font-extrabold">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-sm" />
+                    <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
